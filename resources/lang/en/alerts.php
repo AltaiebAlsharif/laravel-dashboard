@@ -59,5 +59,10 @@ return [
 	"deleted" => "The Renter was successfully deleted.",
 	"updated" => "The Renter was successfully updated.",
 	],
+	"owners" => [
+	"created" => "The Owner was successfully created.",
+	"deleted" => "The Owner was successfully deleted.",
+	"updated" => "The Owner was successfully updated.",
+	],
 	],
 ];

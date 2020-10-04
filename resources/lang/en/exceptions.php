@@ -85,6 +85,13 @@ return [
 	"not_found" => "That Renter does not exist.",
 	"update_error" => "There was a problem updating this Renter. Please try again.",
 	],
+	"owners" => [
+	"already_exists" => "That Owner already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Owner. Please try again.",
+	"delete_error" => "There was a problem deleting this Owner. Please try again.",
+	"not_found" => "That Owner does not exist.",
+	"update_error" => "There was a problem updating this Owner. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [

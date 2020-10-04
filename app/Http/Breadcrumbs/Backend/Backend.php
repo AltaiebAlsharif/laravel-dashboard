@@ -18,3 +18,4 @@ require __DIR__.'/Menu.php';
 require __DIR__.'/LogViewer.php';
 
 require __DIR__.'/Renter.php';
+require __DIR__.'/Owner.php';

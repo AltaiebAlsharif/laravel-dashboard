@@ -1,31 +1,31 @@
 @extends ('backend.layouts.app')
 
-@section ('title', trans('labels.backend.renters.management'))
+@section ('title', trans('labels.backend.owners.management'))
 
 @section('page-header')
-    <h1>{{ trans('labels.backend.renters.management') }}</h1>
+    <h1>{{ trans('labels.backend.owners.management') }}</h1>
 @endsection
 
 @section('content')
     <div class="box box-info">
         <div class="box-header with-border">
-            <h3 class="box-title">{{ trans('labels.backend.renters.management') }}</h3>
+            <h3 class="box-title">{{ trans('labels.backend.owners.management') }}</h3>
 
             <div class="box-tools pull-right">
-                @include('backend.renters.partials.renters-header-buttons')
+                @include('backend.owners.partials.owners-header-buttons')
             </div>
         </div><!--box-header with-border-->
 
         <div class="box-body">
             <div class="table-responsive data-table-wrapper">
-                <table id="renters-table" class="table table-condensed table-hover table-bordered">
+                <table id="owners-table" class="table table-condensed table-hover table-bordered">
                     <thead>
                         <tr>
-                            <th>{{ trans('labels.backend.renters.table.id') }}</th>
-                            <th>{{ trans('labels.backend.renters.table.name') }}</th>
-                            <th>{{ trans('labels.backend.renters.table.phone') }}</th>
-                            <th>{{ trans('labels.backend.renters.table.identity') }}</th>
-                            <th>{{ trans('labels.backend.renters.table.createdat') }}</th>
+                            <th>{{ trans('labels.backend.owners.table.id') }}</th>
+                            <th>{{ trans('labels.backend.owners.table.name') }}</th>
+                            <th>{{ trans('labels.backend.owners.table.phone') }}</th>
+                            <th>{{ trans('labels.backend.owners.table.identity') }}</th>
+                            <th>{{ trans('labels.backend.owners.table.createdat') }}</th>
                             <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
                     </thead>
@@ -58,19 +58,19 @@
                 }
             });
             
-            var dataTable = $('#renters-table').dataTable({
+            var dataTable = $('#owners-table').dataTable({
                 processing: true,
                 serverSide: true,
                 ajax: {
-                    url: '{{ route("admin.renters.get") }}',
+                    url: '{{ route("admin.owners.get") }}',
                     type: 'post'
                 },
                 columns: [
-                    {data: 'id', name: '{{config('module.renters.table')}}.id'},
-                    {data: 'name', name: '{{config('module.renters.table')}}.name'},
-                    {data: 'phone', name: '{{config('module.renters.table')}}.phone'},
-                    {data: 'identity', name: '{{config('module.renters.table')}}.identity'},
-                    {data: 'created_at', name: '{{config('module.renters.table')}}.created_at'},
+                    {data: 'id', name: '{{config('module.owners.table')}}.id'},
+                    {data: 'name', name: '{{config('module.owners.table')}}.name'},
+                    {data: 'phone', name: '{{config('module.owners.table')}}.phone'},
+                    {data: 'identity', name: '{{config('module.owners.table')}}.identity'},
+                    {data: 'created_at', name: '{{config('module.owners.table')}}.created_at'},
                     {data: 'actions', name: 'actions', searchable: false, sortable: false}
                 ],
                 order: [[0, "asc"]],

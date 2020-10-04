@@ -23,4 +23,7 @@ return [
 	"renters" => [
 	"table" => "renters",
 	],
+	"owners" => [
+	"table" => "owners",
+	],
 ];

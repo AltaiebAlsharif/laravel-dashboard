@@ -115,6 +115,13 @@ return [
 	"management" => "Renter Management",
 	"main" => "Renters",
 	],
+	"owners" => [
+	"all" => "All Owners",
+	"create" => "Create Owner",
+	"edit" => "Edit Owner",
+	"management" => "Owner Management",
+	"main" => "Owners",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

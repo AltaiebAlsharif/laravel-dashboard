@@ -249,6 +249,19 @@ return [
 	"createdat" => "Created At",
 	],
 	],
+	"owners" => [
+	"create" => "Create Owner",
+	"edit" => "Edit Owner",
+	"management" => "Owner Management",
+	"title" => "Owners",
+	"table" => [
+	"id" => "Id",
+	"name" => "Name",
+	"phone" => "Phone",
+	"identity" => "Identity",
+	"createdat" => "Created At",
+	],
+	],
 	],
 	"frontend" => [
 	"auth" => [
