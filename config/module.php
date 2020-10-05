@@ -26,4 +26,7 @@ return [
 	"owners" => [
 	"table" => "owners",
 	],
+	"buildings" => [
+	"table" => "buildings",
+	],
 ];

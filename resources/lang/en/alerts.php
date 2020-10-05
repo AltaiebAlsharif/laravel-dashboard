@@ -64,5 +64,10 @@ return [
 	"deleted" => "The Owner was successfully deleted.",
 	"updated" => "The Owner was successfully updated.",
 	],
+	"buildings" => [
+	"created" => "The Building was successfully created.",
+	"deleted" => "The Building was successfully deleted.",
+	"updated" => "The Building was successfully updated.",
+	],
 	],
 ];

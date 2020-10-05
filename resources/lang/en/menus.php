@@ -122,6 +122,13 @@ return [
 	"management" => "Owner Management",
 	"main" => "Owners",
 	],
+	"buildings" => [
+	"all" => "All Buildings",
+	"create" => "Create Building",
+	"edit" => "Edit Building",
+	"management" => "Building Management",
+	"main" => "Buildings",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

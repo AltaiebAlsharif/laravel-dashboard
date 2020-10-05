@@ -92,6 +92,13 @@ return [
 	"not_found" => "That Owner does not exist.",
 	"update_error" => "There was a problem updating this Owner. Please try again.",
 	],
+	"buildings" => [
+	"already_exists" => "That Building already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this Building. Please try again.",
+	"delete_error" => "There was a problem deleting this Building. Please try again.",
+	"not_found" => "That Building does not exist.",
+	"update_error" => "There was a problem updating this Building. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [
