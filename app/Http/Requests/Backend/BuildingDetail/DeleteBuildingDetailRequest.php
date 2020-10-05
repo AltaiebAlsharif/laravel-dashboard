@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Backend\Building;
+namespace App\Http\Requests\Backend\BuildingDetail;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UpdateBuildingRequest extends FormRequest
+class DeleteBuildingDetailRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +13,7 @@ class UpdateBuildingRequest extends FormRequest
      */
     public function authorize()
     {
-        return access()->allow('update-building');
+        return access()->allow('delete-buildingdetail');
     }
 
     /**
@@ -27,11 +27,6 @@ class UpdateBuildingRequest extends FormRequest
             //Put your rules for the request in here
             //For Example : 'title' => 'required'
             //Further, see the documentation : https://laravel.com/docs/5.4/validation#creating-form-requests
-            'name' => ['string' , 'max:100' ],
-            'city' => ['string' , 'max:50' ],
-            'neighborhood' => ['string' , 'max:50' ],
-            'received_date' => ['date' ],
-            'note' => ['string' , 'max:500' ],
         ];
     }
 

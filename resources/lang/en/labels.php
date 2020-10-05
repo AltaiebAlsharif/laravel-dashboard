@@ -272,6 +272,16 @@ return [
 	"createdat" => "Created At",
 	],
 	],
+	"buildingdetails" => [
+	"create" => "Create BuildingDetail",
+	"edit" => "Edit BuildingDetail",
+	"management" => "BuildingDetail Management",
+	"title" => "BuildingDetails",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
 	],
 	"frontend" => [
 	"auth" => [

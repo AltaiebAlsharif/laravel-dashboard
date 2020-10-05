@@ -129,6 +129,13 @@ return [
 	"management" => "Building Management",
 	"main" => "Buildings",
 	],
+	"buildingdetails" => [
+	"all" => "All BuildingDetails",
+	"create" => "Create BuildingDetail",
+	"edit" => "Edit BuildingDetail",
+	"management" => "BuildingDetail Management",
+	"main" => "BuildingDetails",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

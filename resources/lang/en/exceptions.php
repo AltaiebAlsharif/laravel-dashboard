@@ -99,6 +99,13 @@ return [
 	"not_found" => "That Building does not exist.",
 	"update_error" => "There was a problem updating this Building. Please try again.",
 	],
+	"buildingdetails" => [
+	"already_exists" => "That BuildingDetail already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this BuildingDetail. Please try again.",
+	"delete_error" => "There was a problem deleting this BuildingDetail. Please try again.",
+	"not_found" => "That BuildingDetail does not exist.",
+	"update_error" => "There was a problem updating this BuildingDetail. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [
