@@ -74,5 +74,10 @@ return [
 	"deleted" => "The BuildingDetail was successfully deleted.",
 	"updated" => "The BuildingDetail was successfully updated.",
 	],
+	"buildingtypes" => [
+	"created" => "The BuildingType was successfully created.",
+	"deleted" => "The BuildingType was successfully deleted.",
+	"updated" => "The BuildingType was successfully updated.",
+	],
 	],
 ];

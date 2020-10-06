@@ -136,6 +136,13 @@ return [
 	"management" => "BuildingDetail Management",
 	"main" => "BuildingDetails",
 	],
+	"buildingtypes" => [
+	"all" => "All BuildingTypes",
+	"create" => "Create BuildingType",
+	"edit" => "Edit BuildingType",
+	"management" => "BuildingType Management",
+	"main" => "BuildingTypes",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

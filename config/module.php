@@ -32,4 +32,7 @@ return [
 	"buildingdetails" => [
 	"table" => "building_details",
 	],
+	"buildingtypes" => [
+	"table" => "building_types",
+	],
 ];

@@ -1,44 +1,34 @@
 @extends ('backend.layouts.app')
 
-@section ('title', trans('labels.backend.buildings.management'))
+@section ('title', trans('labels.backend.buildingtypes.management'))
 
 @section('page-header')
-    <h1>{{ trans('labels.backend.buildings.management') }}</h1>
+    <h1>{{ trans('labels.backend.buildingtypes.management') }}</h1>
 @endsection
 
 @section('content')
     <div class="box box-info">
         <div class="box-header with-border">
-            <h3 class="box-title">{{ trans('labels.backend.buildings.management') }}</h3>
+            <h3 class="box-title">{{ trans('labels.backend.buildingtypes.management') }}</h3>
 
             <div class="box-tools pull-right">
-                @include('backend.buildings.partials.buildings-header-buttons')
+                @include('backend.buildingtypes.partials.buildingtypes-header-buttons')
             </div>
         </div><!--box-header with-border-->
 
         <div class="box-body">
             <div class="table-responsive data-table-wrapper">
-                <table id="buildings-table" class="table table-condensed table-hover table-bordered">
+                <table id="buildingtypes-table" class="table table-condensed table-hover table-bordered">
                     <thead>
                         <tr>
-                            <th>{{ trans('labels.backend.buildings.table.id') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.name') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.city') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.neighborhood') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.owner_id') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.building_type_id') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.note') }}</th>
-                            <th>{{ trans('labels.backend.buildings.table.createdat') }}</th>
+                            <th>{{ trans('labels.backend.buildingtypes.table.id') }}</th>
+                            <th>{{ trans('labels.backend.buildingtypes.table.name') }}</th>
+                            <th>{{ trans('labels.backend.buildingtypes.table.createdat') }}</th>
                             <th>{{ trans('labels.general.actions') }}</th>
                         </tr>
                     </thead>
                     <thead class="transparent-bg">
                         <tr>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
                             <th></th>
                             <th></th>
                             <th></th>
@@ -64,22 +54,17 @@
                 }
             });
             
-            var dataTable = $('#buildings-table').dataTable({
+            var dataTable = $('#buildingtypes-table').dataTable({
                 processing: true,
                 serverSide: true,
                 ajax: {
-                    url: '{{ route("admin.buildings.get") }}',
+                    url: '{{ route("admin.buildingtypes.get") }}',
                     type: 'post'
                 },
                 columns: [
-                    {data: 'id', name: '{{config('module.buildings.table')}}.id'},
-                    {data: 'name', name: '{{config('module.buildings.table')}}.name'},
-                    {data: 'city', name: '{{config('module.buildings.table')}}.city'},
-                    {data: 'neighborhood', name: '{{config('module.buildings.table')}}.neighborhood'},
-                    {data: 'owner_id', name: '{{config('module.buildings.table')}}.owner_id'},
-                    {data: 'building_type_id', name: '{{config('module.buildings.table')}}.building_type_id'},
-                    {data: 'note', name: '{{config('module.buildings.table')}}.note'},
-                    {data: 'created_at', name: '{{config('module.buildings.table')}}.created_at'},
+                    {data: 'id', name: '{{config('module.buildingtypes.table')}}.id'},
+                    {data: 'id', name: '{{config('module.buildingtypes.table')}}.name'},
+                    {data: 'created_at', name: '{{config('module.buildingtypes.table')}}.created_at'},
                     {data: 'actions', name: 'actions', searchable: false, sortable: false}
                 ],
                 order: [[0, "asc"]],
