@@ -22,3 +22,4 @@ require __DIR__.'/Owner.php';
 require __DIR__.'/Building.php';
 require __DIR__.'/BuildingDetail.php';
 require __DIR__.'/BuildingType.php';
+require __DIR__.'/Expense.php';

@@ -143,6 +143,13 @@ return [
 	"management" => "BuildingType Management",
 	"main" => "BuildingTypes",
 	],
+	"expenses" => [
+	"all" => "All Expenses",
+	"create" => "Create Expense",
+	"edit" => "Edit Expense",
+	"management" => "Expense Management",
+	"main" => "Expenses",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

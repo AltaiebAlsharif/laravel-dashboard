@@ -35,4 +35,7 @@ return [
 	"buildingtypes" => [
 	"table" => "building_types",
 	],
+	"expenses" => [
+	"table" => "expenses",
+	],
 ];

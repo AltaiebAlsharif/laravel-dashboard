@@ -79,5 +79,10 @@ return [
 	"deleted" => "The BuildingType was successfully deleted.",
 	"updated" => "The BuildingType was successfully updated.",
 	],
+	"expenses" => [
+	"created" => "The Expense was successfully created.",
+	"deleted" => "The Expense was successfully deleted.",
+	"updated" => "The Expense was successfully updated.",
+	],
 	],
 ];

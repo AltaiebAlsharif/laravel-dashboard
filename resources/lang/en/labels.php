@@ -303,6 +303,16 @@ return [
 	"createdat" => "Created At",
 	],
 	],
+	"expenses" => [
+	"create" => "Create Expense",
+	"edit" => "Edit Expense",
+	"management" => "Expense Management",
+	"title" => "Expenses",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
 	],
 	"frontend" => [
 	"auth" => [
