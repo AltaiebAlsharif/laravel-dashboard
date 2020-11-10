@@ -120,6 +120,20 @@ return [
 	"not_found" => "That Expense does not exist.",
 	"update_error" => "There was a problem updating this Expense. Please try again.",
 	],
+	"buildingunits" => [
+	"already_exists" => "That BuildingUnit already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this BuildingUnit. Please try again.",
+	"delete_error" => "There was a problem deleting this BuildingUnit. Please try again.",
+	"not_found" => "That BuildingUnit does not exist.",
+	"update_error" => "There was a problem updating this BuildingUnit. Please try again.",
+	],
+	"expensestypes" => [
+	"already_exists" => "That ExpensesType already exists. Please choose a different name.",
+	"create_error" => "There was a problem creating this ExpensesType. Please try again.",
+	"delete_error" => "There was a problem deleting this ExpensesType. Please try again.",
+	"not_found" => "That ExpensesType does not exist.",
+	"update_error" => "There was a problem updating this ExpensesType. Please try again.",
+	],
 	],
 	"frontend" => [
 	"auth" => [

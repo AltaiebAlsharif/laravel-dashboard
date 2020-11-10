@@ -313,6 +313,26 @@ return [
 	"createdat" => "Created At",
 	],
 	],
+	"buildingunits" => [
+	"create" => "Create BuildingUnit",
+	"edit" => "Edit BuildingUnit",
+	"management" => "BuildingUnit Management",
+	"title" => "BuildingUnits",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
+	"expensestypes" => [
+	"create" => "Create ExpensesType",
+	"edit" => "Edit ExpensesType",
+	"management" => "ExpensesType Management",
+	"title" => "ExpensesTypes",
+	"table" => [
+	"id" => "Id",
+	"createdat" => "Created At",
+	],
+	],
 	],
 	"frontend" => [
 	"auth" => [

@@ -150,6 +150,20 @@ return [
 	"management" => "Expense Management",
 	"main" => "Expenses",
 	],
+	"buildingunits" => [
+	"all" => "All BuildingUnits",
+	"create" => "Create BuildingUnit",
+	"edit" => "Edit BuildingUnit",
+	"management" => "BuildingUnit Management",
+	"main" => "BuildingUnits",
+	],
+	"expensestypes" => [
+	"all" => "All ExpensesTypes",
+	"create" => "Create ExpensesType",
+	"edit" => "Edit ExpensesType",
+	"management" => "ExpensesType Management",
+	"main" => "ExpensesTypes",
+	],
 	],
 	"language-picker" => [
 	"language" => "Language",

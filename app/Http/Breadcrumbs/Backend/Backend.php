@@ -23,3 +23,5 @@ require __DIR__.'/Building.php';
 require __DIR__.'/BuildingDetail.php';
 require __DIR__.'/BuildingType.php';
 require __DIR__.'/Expense.php';
+require __DIR__.'/BuildingUnit.php';
+require __DIR__.'/ExpensesType.php';

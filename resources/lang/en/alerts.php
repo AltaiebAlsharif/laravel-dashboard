@@ -84,5 +84,15 @@ return [
 	"deleted" => "The Expense was successfully deleted.",
 	"updated" => "The Expense was successfully updated.",
 	],
+	"buildingunits" => [
+	"created" => "The BuildingUnit was successfully created.",
+	"deleted" => "The BuildingUnit was successfully deleted.",
+	"updated" => "The BuildingUnit was successfully updated.",
+	],
+	"expensestypes" => [
+	"created" => "The ExpensesType was successfully created.",
+	"deleted" => "The ExpensesType was successfully deleted.",
+	"updated" => "The ExpensesType was successfully updated.",
+	],
 	],
 ];

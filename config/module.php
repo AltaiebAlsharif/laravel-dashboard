@@ -38,4 +38,10 @@ return [
 	"expenses" => [
 	"table" => "expenses",
 	],
+	"buildingunits" => [
+	"table" => "building_unit",
+	],
+	"expensestypes" => [
+	"table" => "expenses_types",
+	],
 ];

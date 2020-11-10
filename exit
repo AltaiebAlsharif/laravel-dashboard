@@ -1,0 +1,462 @@
+[33mcommit 257c082969511693fc794e43cb83fa24719ceb94[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: Altaieb Alsharif <tub-911@hotmail.com>
+Date:   Sun Nov 8 15:07:23 2020 +0300
+
+    Added more fields to tables
+
+[33mcommit 7f77d8306e0660ffeca811fe69c323385d4f47b6[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Altaieb Alsharif <tub-911@hotmail.com>
+Date:   Tue Oct 6 15:16:30 2020 +0300
+
+    add building type module
+
+[33mcommit 43456d3d484c64fb8042c4baa911496cc3f9b224[m
+Author: Altaieb Alsharif <tub-911@hotmail.com>
+Date:   Mon Oct 5 14:57:23 2020 +0200
+
+    building detal module
+
+[33mcommit 2d09765e04a058420b953cb760ec9df76cc4404d[m
+Author: Altaieb Alsharif <tub-911@hotmail.com>
+Date:   Mon Oct 5 14:09:20 2020 +0200
+
+    create builidings module
+
+[33mcommit 170a318048670ad68a907f9a33e04dc7fdc0c7a2[m
+Author: Altaieb Alsharif <tub-911@hotmail.com>
+Date:   Sun Oct 4 13:02:09 2020 +0200
+
+    add owner table
+
+[33mcommit ea08471f3733678cad7db2891ff7bde1d2895f50[m
+Author: Altaieb Alsharif <tub-911@hotmail.com>
+Date:   Sun Oct 4 11:44:30 2020 +0200
+
+    complete renters module
+
+[33mcommit 40daefc2e4d4c7a431384d774f82b01ee3a782c3[m
+Merge: 5b39a7c 101e5ab
+Author: tub-911 <tub-911@hotmail.com>
+Date:   Wed Sep 16 01:47:13 2020 +0200
+
+    Merge branch 'master' of https://github.com/tub-911/laravel-dashboard into develop
+
+[33mcommit 101e5abef9d908de0ed5830ccc6798ab5e538317[m
+Author: tub-911 <tub-911@hotmail.com>
+Date:   Wed Sep 16 01:46:07 2020 +0200
+
+    complete rtl part1
+
+[33mcommit 5b39a7c2ae1d67631aa5e3538367066c8a52b1fb[m
+Author: tub-911 <tub-911@hotmail.com>
+Date:   Tue Sep 15 23:37:21 2020 +0200
+
+    for test upload
+
+[33mcommit 20013e901f9c6c8be3fe2d7dc52eafa8117c8fcc[m
+Author: tub-911 <tub-911@hotmail.com>
+Date:   Tue Sep 15 22:56:42 2020 +0200
+
+    add arabic lang
+
+[33mcommit 3cce405d9d2378d3b21f75d170571af0f968761d[m
+Author: tub-911 <tub-911@hotmail.com>
+Date:   Tue Sep 15 22:53:39 2020 +0200
+
+    add arabic lang
+
+[33mcommit a5af0d8a47ec5c3c223917f3fdfa7c67e09c0e23[m
+Merge: 50c2fae ed786cb
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Thu Aug 20 21:15:53 2020 +0530
+
+    Merge pull request #670 from viralsolani/analysis-or2ZMb
+    
+    Apply fixes from StyleCI
+
+[33mcommit ed786cbb456226a1c1f032dcc14329e3e1e37ba2[m
+Author: Kamlesh Gupta <krguptaa@users.noreply.github.com>
+Date:   Thu Aug 20 15:45:44 2020 +0000
+
+    Apply fixes from StyleCI
+
+[33mcommit 50c2fae980efceb658d65a5c0f92117e6cc060c8[m
+Merge: 620df3a 8644556
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Thu Aug 20 21:15:34 2020 +0530
+
+    Merge pull request #627 from vinoVINI1/master
+    
+    Update composer.json
+
+[33mcommit 8644556849d308c9855ce9a59a7be8dd94df6b23[m
+Author: vinoVINI1 <31156550+vinoVINI1@users.noreply.github.com>
+Date:   Tue Apr 28 22:16:57 2020 +0530
+
+    Update composer.json
+
+[33mcommit 620df3a92d603fd79f8aa1720776597100737d07[m
+Merge: b4fafa2 841f225
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:28:03 2019 +0530
+
+    Merge pull request #579 from viralsolani/develop
+    
+    Merge the develop to master
+
+[33mcommit 841f225b7d3e54fbadabeb414d13f894932a3238[m
+Merge: cde6393 d100bc9
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:25:57 2019 +0530
+
+    Merge pull request #574 from viralsolani/dependabot/npm_and_yarn/develop/laravel-mix-5.0.1
+    
+    Bump laravel-mix from 4.1.4 to 5.0.1
+
+[33mcommit cde63930ecbdf4bd5deee8d75a6f4b9d3092e79c[m
+Merge: 2d1c2a5 b4cc4fb
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:25:34 2019 +0530
+
+    Merge pull request #575 from viralsolani/dependabot/npm_and_yarn/develop/tinymce-5.1.5
+    
+    Bump tinymce from 5.1.4 to 5.1.5
+
+[33mcommit 2d1c2a5459d5de37d49dc000d8c2d05a6e9de831[m
+Merge: 08b5740 91c6887
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:25:17 2019 +0530
+
+    Merge pull request #577 from viralsolani/dependabot/npm_and_yarn/develop/sass-1.24.0
+    
+    Bump sass from 1.23.0 to 1.24.0
+
+[33mcommit 08b5740f4a9f74104c0d8aeee03e76427ac61dad[m
+Merge: ba31a52 caa706a
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:25:02 2019 +0530
+
+    Merge pull request #578 from krguptaa/develop
+    
+    Merging the krguptaa develop
+
+[33mcommit caa706aaf5b9845c4ae5b3291de416ef4e4317d4[m
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:21:39 2019 +0530
+
+    Fix the issue of key generation
+
+[33mcommit 629e4a984ce2d27b59ce92791219c4931a99c61b[m
+Merge: 142cfb6 ba31a52
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 21 17:18:22 2019 +0530
+
+    Merge branch 'develop' of https://github.com/viralsolani/laravel-adminpanel into develop
+
+[33mcommit 91c6887cf9582d5112d537b3462085951c10ca91[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Fri Dec 20 23:16:43 2019 +0000
+
+    Bump sass from 1.23.0 to 1.24.0
+    
+    Bumps [sass](https://github.com/sass/dart-sass) from 1.23.0 to 1.24.0.
+    - [Release notes](https://github.com/sass/dart-sass/releases)
+    - [Changelog](https://github.com/sass/dart-sass/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/sass/dart-sass/compare/1.23.0...1.24.0)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit b4cc4fb59b4f34ecc4f457df5aa91ae6a9412697[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Thu Dec 19 23:15:42 2019 +0000
+
+    Bump tinymce from 5.1.4 to 5.1.5
+    
+    Bumps [tinymce](https://github.com/tinymce/tinymce-dist) from 5.1.4 to 5.1.5.
+    - [Release notes](https://github.com/tinymce/tinymce-dist/releases)
+    - [Changelog](https://github.com/tinymce/tinymce-dist/blob/master/changelog.txt)
+    - [Commits](https://github.com/tinymce/tinymce-dist/compare/5.1.4...5.1.5)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit d100bc9b84de0bfbe60cd53c93b2b52db22f7460[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Tue Dec 17 23:16:16 2019 +0000
+
+    Bump laravel-mix from 4.1.4 to 5.0.1
+    
+    Bumps [laravel-mix](https://github.com/JeffreyWay/laravel-mix) from 4.1.4 to 5.0.1.
+    - [Release notes](https://github.com/JeffreyWay/laravel-mix/releases)
+    - [Commits](https://github.com/JeffreyWay/laravel-mix/commits)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit ba31a529a4658399ce25cf907e25f322b3c07bdb[m
+Merge: 50f82cb 8111656
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 14 10:42:08 2019 +0530
+
+    Merge pull request #571 from viralsolani/dependabot/npm_and_yarn/develop/tinymce-5.1.4
+    
+    Bump tinymce from 5.1.3 to 5.1.4
+
+[33mcommit 50f82cbd6335607e153afbd4c92e6e64f5fa8f61[m
+Merge: 49bf64f e4a9677
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Sat Dec 14 10:41:49 2019 +0530
+
+    Merge pull request #572 from viralsolani/dependabot/npm_and_yarn/develop/vue-and-vue-template-compiler-2.6.11
+    
+    Bump vue and vue-template-compiler
+
+[33mcommit e4a96772a11a622ac4ec3634eae6198cc5b3ecc1[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Fri Dec 13 23:16:18 2019 +0000
+
+    Bump vue and vue-template-compiler
+    
+    Bumps [vue](https://github.com/vuejs/vue) and [vue-template-compiler](https://github.com/vuejs/vue). These dependencies needed to be updated together.
+    
+    Updates `vue` from 2.6.10 to 2.6.11
+    - [Release notes](https://github.com/vuejs/vue/releases)
+    - [Commits](https://github.com/vuejs/vue/compare/v2.6.10...v2.6.11)
+    
+    Updates `vue-template-compiler` from 2.6.10 to 2.6.11
+    - [Release notes](https://github.com/vuejs/vue/releases)
+    - [Commits](https://github.com/vuejs/vue/compare/v2.6.10...v2.6.11)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit 811165646614ecbe6a8004572d2644762b7fa951[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Wed Dec 11 23:16:47 2019 +0000
+
+    Bump tinymce from 5.1.3 to 5.1.4
+    
+    Bumps [tinymce](https://github.com/tinymce/tinymce-dist) from 5.1.3 to 5.1.4.
+    - [Release notes](https://github.com/tinymce/tinymce-dist/releases)
+    - [Changelog](https://github.com/tinymce/tinymce-dist/blob/master/changelog.txt)
+    - [Commits](https://github.com/tinymce/tinymce-dist/compare/5.1.3...5.1.4)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit 142cfb66a510d8f2fa10c10f14927e2d9cb96e27[m
+Merge: 3d367f5 49bf64f
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Fri Dec 6 10:35:55 2019 +0530
+
+    Merge branch 'develop' of https://github.com/viralsolani/laravel-adminpanel into develop
+
+[33mcommit 49bf64fee855cd3b36c2ab30b22db48b58a0398b[m
+Merge: 7d9eb81 4b9e9fe
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Fri Dec 6 10:33:37 2019 +0530
+
+    Merge pull request #568 from viralsolani/dependabot/npm_and_yarn/develop/bootstrap-4.4.1
+    
+    Bump bootstrap from 4.3.1 to 4.4.1
+
+[33mcommit 7d9eb819728655a49d42417d135a861ef0d47b06[m
+Merge: 3712f2a 18fb518
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Fri Dec 6 10:33:19 2019 +0530
+
+    Merge pull request #569 from viralsolani/dependabot/npm_and_yarn/develop/tinymce-5.1.3
+    
+    Bump tinymce from 5.0.16 to 5.1.3
+
+[33mcommit 18fb518efaa398066197eacae5fc6278fc5c9481[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Wed Dec 4 23:16:38 2019 +0000
+
+    Bump tinymce from 5.0.16 to 5.1.3
+    
+    Bumps [tinymce](https://github.com/tinymce/tinymce-dist) from 5.0.16 to 5.1.3.
+    - [Release notes](https://github.com/tinymce/tinymce-dist/releases)
+    - [Changelog](https://github.com/tinymce/tinymce-dist/blob/master/changelog.txt)
+    - [Commits](https://github.com/tinymce/tinymce-dist/compare/5.0.16...5.1.3)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit 4b9e9fe2e31a32ec8fac85a4349cbe60237ae4f1[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Thu Nov 28 23:14:46 2019 +0000
+
+    Bump bootstrap from 4.3.1 to 4.4.1
+    
+    Bumps [bootstrap](https://github.com/twbs/bootstrap) from 4.3.1 to 4.4.1.
+    - [Release notes](https://github.com/twbs/bootstrap/releases)
+    - [Commits](https://github.com/twbs/bootstrap/compare/v4.3.1...v4.4.1)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit b4fafa282e887475221dd4ef588bb8bbdd4fba0e[m
+Merge: cf9984d 3712f2a
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Wed Nov 27 23:13:57 2019 +0530
+
+    Merge pull request #567 from viralsolani/develop
+    
+    Merging develop to master
+
+[33mcommit 3712f2a88a3de8e8366cfa888f5761d70d2845fb[m
+Merge: 79652d8 91a6fa5
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Wed Nov 27 23:12:55 2019 +0530
+
+    Merge pull request #566 from krguptaa/devlop
+    
+    Upgrade the module generation package
+
+[33mcommit cf9984d43c818623562bd998f4f1701b4065abe7[m
+Merge: d87da16 79652d8
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Wed Nov 27 22:49:13 2019 +0530
+
+    Merge pull request #565 from viralsolani/develop
+    
+    Revert "Upgrade the module generation package"
+
+[33mcommit 79652d8f168f2ebf0c91a2e1ea0cb86514a25483[m
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Wed Nov 27 16:49:02 2019 +0530
+
+    Revert "Upgrade the module generation package"
+
+[33mcommit 91a6fa55f0a21e46346aeb464b55199aea9569d9[m
+Author: kamlesh401 <kamlesh@technobrave.com>
+Date:   Mon Nov 25 20:15:25 2019 +0530
+
+    Upgrade the module generation package:
+
+[33mcommit 3d367f5062661b9463e3e5f1c0d375fc1dbb5956[m
+Merge: 236a200 15ac4c1
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Fri Nov 15 11:52:07 2019 +0530
+
+    Merge pull request #547 from krguptaa/develop
+    
+    Fix the issue of count in user table
+
+[33mcommit 15ac4c118f4f1949bff3a0e0db105fc630e77e53[m
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Fri Nov 15 11:48:18 2019 +0530
+
+    Fix the issue of key generation
+
+[33mcommit 0c2e9c69045ad779079221aa939c762876086808[m
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Fri Nov 15 11:47:20 2019 +0530
+
+    Fix the issue of sql mode using strict
+
+[33mcommit 236a200a1bbed798264d0ab8bb6a398082d9f00a[m
+Merge: 22f51f6 efea571
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Thu Nov 14 19:51:41 2019 +0530
+
+    Merge pull request #544 from viralsolani/dependabot/composer/develop/symfony/http-foundation-4.3.8
+    
+    [Security] Bump symfony/http-foundation from 4.3.5 to 4.3.8
+
+[33mcommit efea571a912a193828c8900a0d87f6ba1cfd7263[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Wed Nov 13 11:32:34 2019 +0000
+
+    [Security] Bump symfony/http-foundation from 4.3.5 to 4.3.8
+    
+    Bumps [symfony/http-foundation](https://github.com/symfony/http-foundation) from 4.3.5 to 4.3.8. **This update includes a security fix.**
+    - [Release notes](https://github.com/symfony/http-foundation/releases)
+    - [Changelog](https://github.com/symfony/http-foundation/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/symfony/http-foundation/compare/v4.3.5...v4.3.8)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+[33mcommit d87da161ef57361b20d77d886d50a806fbe5e2fa[m
+Merge: cf2eda7 f4b4d36
+Author: Vipul Basapati <basapativipulkumar@gmail.com>
+Date:   Wed Oct 30 12:37:04 2019 +0530
+
+    Merge pull request #521 from rubensrocha/patch-1
+    
+    Fix route param
+
+[33mcommit f4b4d3603e7a3844463b1554f5b62471621a9dd6[m
+Author: rubensrocha <rubens.dragonforce@gmail.com>
+Date:   Mon Oct 28 16:20:59 2019 -0300
+
+    Fix route param
+    
+    Changed id to setting. Tested on PHP 7.2 and Laravel 6
+
+[33mcommit cf2eda7f89604e1089eea9c5f94d29c0622cd114[m
+Merge: 4e9222e 22f51f6
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Wed Oct 23 15:51:16 2019 +0530
+
+    Merge pull request #517 from viralsolani/develop
+    
+    Resolve ActiveService Provider issue
+
+[33mcommit 22f51f66f2630710122412e419b42e45398d886d[m
+Merge: a3f1852 3b39ad8
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Wed Oct 23 15:40:06 2019 +0530
+
+    Merge pull request #516 from krguptaa/develop
+    
+    Fix the issue of active service provider
+
+[33mcommit 3b39ad8b1bfdbbf17042cce32db9806b053c710b[m
+Author: Kamlesh Gupta <webworldgk@gmail.com>
+Date:   Wed Oct 23 15:36:09 2019 +0530
+
+    Fix the issue of active service provider
+
+[33mcommit 4e9222e40fd941071d66d7f0d23170d26a7d5bf9[m[33m ([m[1;33mtag: 6.0.2[m[33m, [m[1;33mtag: 6.0.1[m[33m)[m
+Merge: eb64611 a3f1852
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Sat Oct 19 15:39:47 2019 +0530
+
+    Merge pull request #511 from viralsolani/develop
+    
+    Upgrade to Laravel 6.0
+
+[33mcommit a3f1852485a07514f6e0d7d594dfeafc88caf5c2[m
+Merge: 2ed472c 03240f9
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Sat Oct 19 15:36:50 2019 +0530
+
+    Merge pull request #506 from viralsolani/dependabot/composer/develop/laravel/framework-6.3.0
+    
+    Bump laravel/framework from 6.2.0 to 6.3.0
+
+[33mcommit 2ed472c86d45c6ea4720b1e88e11d2b574f87b52[m
+Merge: 9537983 51a9c30
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Sat Oct 19 15:36:35 2019 +0530
+
+    Merge pull request #505 from viralsolani/dependabot/composer/develop/facade/ignition-1.11.2
+    
+    Bump facade/ignition from 1.11.1 to 1.11.2
+
+[33mcommit 9537983de19068751824a54d5da03de71a6a9b65[m
+Merge: 66b70bb ddec017
+Author: Viral Solani <viral.solani@gmail.com>
+Date:   Sat Oct 19 15:36:15 2019 +0530
+
+    Merge pull request #507 from viralsolani/dependabot/composer/develop/krgupta/active-4.0
+    
+    Bump krgupta/active from 1.1 to 4.0
+
+[33mcommit ddec017260ea8a43f7f276f754558602092c06ab[m
+Author: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Date:   Wed Oct 16 07:47:15 2019 +0000
+
+    Bump krgupta/active from 1.1 to 4.0
+    
+    Bumps [krgupta/active](https://github.com/krguptaa/active) from 1.1 to 4.0.
+    - [Release notes](https://github.com/krguptaa/active/releases)
+    - [Commits](https://github.com/krguptaa/active/compare/1.1...4.0)
+    
+    Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
