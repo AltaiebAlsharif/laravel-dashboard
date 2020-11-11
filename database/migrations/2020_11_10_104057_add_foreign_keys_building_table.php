@@ -15,8 +15,8 @@ class AddForeignKeysBuildingTable extends Migration
     {
         Schema::table('buildings', function (Blueprint $table) {
             //
-            $table->foreignId('building_type_id')->constrained('building_types');
-            $table->foreignId('owner_id')->constrained('owners');
+            $table->foreign('building_type_id')->references('id')->on('building_types');
+            $table->foreign('owner_id')->references('id')->on('owners');
         });
     }
 

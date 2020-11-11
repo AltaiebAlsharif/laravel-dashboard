@@ -15,9 +15,10 @@ class AddForeignKeysToExpensesTable extends Migration
     {
         Schema::table('expenses', function (Blueprint $table) {
             //
-            $table->foreignId('expense_type_id')->constrained('expenses_types');
-            $table->foreignId('building_id')->constrained('buildings');
-            $table->foreignId('building_details_id')->constrained('building_details');
+            $table->foreign('expense_type_id')->references('id')->on('expenses_types');
+            $table->foreign('building_id')->references('id')->on('buildings');
+            $table->foreign('building_details_id')->references('id')->on('building_details');
+            
         });
     }
 
